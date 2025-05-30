@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+html , body {
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+
+@theme{
+  --color-white--50: #d9ecff;
+  --color--blue--100 : #2d2D38;
+}
+
+@layer utilities {
+  .Flex-center{
+    @apply flex justify-center items-center ;
+  }
+}
